@@ -1,0 +1,23 @@
+.chartavigation {
+  width: 100%;
+  background-color: #fafcfb;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+button li:hover {
+  color: #7b97e3;
+}
+
+button li {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+}

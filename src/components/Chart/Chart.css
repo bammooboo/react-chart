@@ -1,0 +1,50 @@
+.container {
+  background-color: #f4f7f8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.innerContainer {
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.visualsContainer {
+  background-color: #fff;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.chart {
+  width: 70%;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+
+.info {
+  width: 20%;
+  font-weight: 400;
+  margin: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  .visualsContainer {
+    flex-flow: column;
+  }
+
+  .chart {
+    width: 100%;
+  }
+
+  .info {
+    width: 80%;
+  }
+}
