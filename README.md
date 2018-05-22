@@ -1,8 +1,7 @@
 ## React Chart
 
-#Instructions
+# Instructions
 
--Open the zip file
 -In the terminal, navigate to the folder (react-chart)
 -run `npm install` to download dependencies from `package.json`
 -run `npm start` to run in localhost
