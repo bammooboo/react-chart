@@ -9,7 +9,7 @@
 - run `npm start` to run in localhost
 
 
-##create-react-app information
+## create-react-app information
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
